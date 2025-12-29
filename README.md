@@ -1,4 +1,4 @@
-# Hans Jiang's Personal Portfolio Website, adapted from this [https://github.com/erich2s/eric-portfolio-website]project 🧑🏻‍💻
+# Hans Jiang's Personal Portfolio Website, adapted from this [project](https://github.com/erich2s/eric-portfolio-website) 🧑🏻‍💻
 
 Link: Not Deployed Yet
 
