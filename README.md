@@ -1,6 +1,6 @@
-# Eric Huang Personal Portfolio Website 🧑🏻‍💻
+# Hans Jiang's Personal Portfolio Website, adapted from this [https://github.com/erich2s/eric-portfolio-website]project 🧑🏻‍💻
 
-Link: [erichuang.top](https://erichuang.top)
+Link: Not Deployed Yet
 
 A super clean personal portfolio website, built with:
 
@@ -8,5 +8,3 @@ A super clean personal portfolio website, built with:
 - TailwindCSS
 - Framer-Motion
 - Shadcn/ui
-
-![Screenshot](./screenshot.png)

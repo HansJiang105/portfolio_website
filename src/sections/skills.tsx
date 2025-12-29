@@ -1,65 +1,44 @@
 import MotionDiv from "@/components/motion-div";
 import MotionList from "@/components/motion-list";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import reactIcon from "@/assets/icons/react.png";
-import nextjsIcon from "@/assets/icons/next-js.png";
-import vueIcon from "@/assets/icons/vue.png";
-import typescriptIcon from "@/assets/icons/typescript.png";
-import javascriptIcon from "@/assets/icons/javascript.png";
 import pythonIcon from "@/assets/icons/python.png";
-import javaIcon from "@/assets/icons/java.png";
 import html5Icon from "@/assets/icons/html5.png";
 import tailwindcssIcon from "@/assets/icons/tailwindcss.png";
-import shadcnuiIcon from "@/assets/icons/shadcn-ui.png";
 import pnpmIcon from "@/assets/icons/pnpm.png";
-import viteIcon from "@/assets/icons/vite.png";
-import prettierIcon from "@/assets/icons/prettier.png";
-import nodejsIcon from "@/assets/icons/nodejs.png";
-import nestjsIcon from "@/assets/icons/nest-js.png";
-import expressjsIcon from "@/assets/icons/express-js.png";
-import prismaIcon from "@/assets/icons/prisma.png";
-import postgresIcon from "@/assets/icons/postgres.png";
-import dockerIcon from "@/assets/icons/docker.png";
 import gitIcon from "@/assets/icons/git.png";
-import ubuntuIcon from "@/assets/icons/ubuntu.svg";
 import macosIcon from "@/assets/icons/macos.png";
 import vscodeIcon from "@/assets/icons/vscode.png";
 import arcIcon from "@/assets/icons/arc.png";
 import warpIcon from "@/assets/icons/warp.webp";
-import postmanIcon from "@/assets/icons/postman.svg";
-import davinciResolveIcon from "@/assets/icons/davinci-resolve.png";
-import lightroomIcon from "@/assets/icons/lightroom.png";
-import ExpoIcon from "@/assets/icons/expo.png";
 import githubActionsIcon from "@/assets/icons/github-actions.png";
-import trpcIcon from "@/assets/icons/trpc.svg";
 export default function skills() {
+  // TODO: Add missing technology icons to /src/assets/icons/
+  // Missing icons: C#, Django, FastAPI, NumPy, Pandas, Matplotlib, SciPy,
+  // Scikit-learn, TensorFlow, PyTorch, Hugging Face, OpenCV, YOLOv11,
+  // PyCharm, Comet Browser, Cursor, Claude Code, Unity, Photoshop,
+  // Illustrator, Fusion 360
+
   const data = [
+    {
+      title: "Languages",
+      skills: [
+        {
+          name: "Python",
+          icon: pythonIcon,
+        },
+        {
+          name: "C#",
+          icon: pythonIcon, // TODO: Add C# icon
+        },
+      ],
+    },
     {
       title: "Web Development",
       skills: [
         {
-          name: "React.js",
+          name: "React",
           icon: reactIcon,
-        },
-        {
-          name: "Next.js",
-          icon: nextjsIcon,
-        },
-        {
-          name: "Vue.js",
-          icon: vueIcon,
-        },
-        {
-          name: "tRPC",
-          icon: trpcIcon,
-        },
-        {
-          name: "TypeScript",
-          icon: typescriptIcon,
-        },
-        {
-          name: "JavaScript",
-          icon: javascriptIcon,
         },
         {
           name: "HTML5",
@@ -69,60 +48,58 @@ export default function skills() {
           name: "Tailwind CSS",
           icon: tailwindcssIcon,
         },
-
         {
-          name: "shadcn/ui",
-          icon: shadcnuiIcon,
+          name: "Django",
+          icon: pythonIcon, // TODO: Add Django icon
         },
         {
-          name: "PNPM",
-          icon: pnpmIcon,
-        },
-        {
-          name: "Vite",
-          icon: viteIcon,
-        },
-        {
-          name: "Prettier",
-          icon: prettierIcon,
+          name: "FastAPI",
+          icon: pythonIcon, // TODO: Add FastAPI icon
         },
       ],
     },
     {
-      title: "Backend Development",
+      title: "Data Science & ML",
       skills: [
         {
-          name: "Nest.js",
-          icon: nestjsIcon,
+          name: "NumPy",
+          icon: pythonIcon, // TODO: Add NumPy icon
         },
         {
-          name: "Express.js",
-          icon: expressjsIcon,
+          name: "Pandas",
+          icon: pythonIcon, // TODO: Add Pandas icon
         },
         {
-          name: "Node.js",
-          icon: nodejsIcon,
+          name: "Matplotlib",
+          icon: pythonIcon, // TODO: Add Matplotlib icon
         },
         {
-          name: "Prisma ORM",
-          icon: prismaIcon,
+          name: "SciPy",
+          icon: pythonIcon, // TODO: Add SciPy icon
         },
         {
-          name: "PostgreSQL",
-          icon: postgresIcon,
-        },
-      ],
-    },
-    {
-      title: "Mobile Development",
-      skills: [
-        {
-          name: "React Native",
-          icon: reactIcon,
+          name: "Scikit-learn",
+          icon: pythonIcon, // TODO: Add Scikit-learn icon
         },
         {
-          name: "Expo",
-          icon: ExpoIcon,
+          name: "TensorFlow",
+          icon: pythonIcon, // TODO: Add TensorFlow icon
+        },
+        {
+          name: "PyTorch",
+          icon: pythonIcon, // TODO: Add PyTorch icon
+        },
+        {
+          name: "Hugging Face",
+          icon: pythonIcon, // TODO: Add Hugging Face icon
+        },
+        {
+          name: "OpenCV",
+          icon: pythonIcon, // TODO: Add OpenCV icon
+        },
+        {
+          name: "YOLOv11",
+          icon: pythonIcon, // TODO: Add YOLOv11 icon
         },
       ],
     },
@@ -137,72 +114,67 @@ export default function skills() {
           name: "GitHub Actions",
           icon: githubActionsIcon,
         },
-        {
-          name: "Docker",
-          icon: dockerIcon,
-        },
-        {
-          name: "Ubuntu",
-          icon: ubuntuIcon,
-        },
       ],
     },
     {
-      title: "Languages",
+      title: "Development Tools",
       skills: [
-        {
-          name: "TypeScript",
-          icon: typescriptIcon,
-        },
-        {
-          name: "JavaScript",
-          icon: javascriptIcon,
-        },
-        {
-          name: "Python",
-          icon: pythonIcon,
-        },
-        {
-          name: "Java",
-          icon: javaIcon,
-        },
-      ],
-    },
-    {
-      title: "Tools & Environment",
-      skills: [
-        {
-          name: "macOS",
-          icon: macosIcon,
-        },
         {
           name: "VS Code",
           icon: vscodeIcon,
         },
         {
-          name: "Arc",
+          name: "PyCharm",
+          icon: pythonIcon, // TODO: Add PyCharm icon
+        },
+        {
+          name: "PNPM",
+          icon: pnpmIcon,
+        },
+        {
+          name: "Arc Browser",
           icon: arcIcon,
+        },
+        {
+          name: "Comet Browser",
+          icon: arcIcon, // TODO: Add Comet icon
         },
         {
           name: "Warp Terminal",
           icon: warpIcon,
         },
         {
-          name: "Postman",
-          icon: postmanIcon,
+          name: "Cursor",
+          icon: vscodeIcon, // TODO: Add Cursor icon
+        },
+        {
+          name: "Claude Code",
+          icon: vscodeIcon, // TODO: Add Claude Code icon
+        },
+        {
+          name: "macOS",
+          icon: macosIcon,
         },
       ],
     },
     {
-      title: "Visual",
+      title: "Creative & Design",
       skills: [
         {
-          name: "DaVinci Resolve",
-          icon: davinciResolveIcon,
+          name: "Unity Engine",
+          icon: pythonIcon, // TODO: Add Unity icon
         },
         {
-          name: "Lightroom",
-          icon: lightroomIcon,
+          name: "Photoshop",
+          icon: pythonIcon, // TODO: Add Photoshop icon
+        },
+        {
+          name: "Illustrator",
+          icon: pythonIcon, // TODO: Add Illustrator icon
+        },
+        {
+          name: "Fusion 360",
+          icon: pythonIcon, // TODO: Add Fusion 360 icon
         },
       ],
     },
@@ -234,7 +206,7 @@ export default function skills() {
   );
 }
 
-function SkillCard({ icon, name }: { icon: string; name: string }) {
+function SkillCard({ icon, name }: { icon: StaticImageData; name: string }) {
   return (
     <div className="group rounded-xl border-none p-5 text-center shadow-none transition-all duration-200 ease-linear hover:scale-110 hover:drop-shadow-xl">
       <div className="flex flex-col items-center gap-2">

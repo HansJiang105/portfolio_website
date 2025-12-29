@@ -3,8 +3,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
   faGithub,
-  faTiktok,
-  faXTwitter,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import MotionList from "./motion-list";
 import { Button } from "@/components/ui/button";
@@ -26,33 +25,26 @@ const contacts: Contact[] = [
   {
     name: "Email",
     className: "bg-yellow-500 hover:bg-yellow-600",
-    href: "mailto:erich2s0103@gmail.com",
+    href: "mailto:jiangzheyu105@gmail.com",
     icon: faEnvelope,
   },
-
   {
-    name: "X",
+    name: "GitHub",
     className: "bg-black hover:bg-gray-800/90",
-    href: "https://twitter.com/erich2s",
-    icon: faXTwitter,
+    href: "https://github.com/HansJiang105",
+    icon: faGithub,
   },
   {
-    name: "Github",
-    className: "bg-black hover:bg-gray-800/90",
-    href: "https://github.com/erich2s",
-    icon: faGithub,
+    name: "LinkedIn",
+    className: "bg-blue-600 hover:bg-blue-700",
+    href: "https://www.linkedin.com/in/zheyuhans-jiang",
+    icon: faLinkedin,
   },
   {
     name: "Instagram",
     className: "bg-pink-500 hover:bg-pink-600",
-    href: "https://instagram.com/eric.h2s/",
+    href: "https://www.instagram.com/x.x.x_17_juice?igsh=MWVnZmo4a3pvcnZzNA%3D%3D&utm_source=qr",
     icon: faInstagram,
-  },
-  {
-    name: "TikTok",
-    className: "bg-black hover:bg-gray-800/90",
-    href: "https://tiktok.com/@erich2s",
-    icon: faTiktok,
   },
 ];
 export default function ContactList({

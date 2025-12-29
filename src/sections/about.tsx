@@ -14,28 +14,19 @@ export default function about() {
         <article className="flex flex-col gap-4">
           <MotionDiv delayOffset={0.4}>
             <p>
-              Hello, I'm Eric Huang and my Chinese is
-              <span className="whitespace-nowrap"> 黄士崧(huáng shì sōng)</span>
-              . I'm an independent <b>TypeScript Full-Stack</b> developer based
-              in Nanning, China.
+              Hello, I'm Hans Jiang and my Chinese name is
+              <span className="whitespace-nowrap"> 江哲宇 (jiāng zhé yǔ)</span>
+              . I'm a sophomore at MIT studying <b>Mathematics and Computer Science</b>, driven by a curiosity about how abstract ideas turn into systems that shape real lives. I enjoy working at the intersection of theory and application, whether that's algorithms, machine learning, or the infrastructure that quietly powers decisions in the world around us. I'm especially drawn to questions of robustness, generalization, and responsibility in modern AI systems.
             </p>
           </MotionDiv>
           <MotionDiv delayOffset={0.5}>
             <p>
-              As a technologies enthusiast, I am highly passionate about
-              building full-stack web applications. And I love learning new
-              technologies, especially elegant code architectures and design
-              patterns. I hope to leverage my technical skills to build valuable
-              apps that can make a difference in people's lives.
+              Beyond coursework, I'm passionate about understanding technology in context. I think a lot about how models are trained, the social and societal implications of technologies, and what it means to deploy systems in high-stakes settings like healthcare, finance, or public safety. I'm equally interested in quantitative finance and investing, not just as markets, but as complex systems where math, incentives, and human behavior collide.
             </p>
           </MotionDiv>
           <MotionDiv delayOffset={0.6}>
             <p>
-              Outside of programming, I am also a photographer and filmmaker, I
-              enjoy doing photography and filmmaking and all things visual. I
-              hope my works can aspires people to see the beauty of the world
-              around us. So welcome to subscribe to my social media channels
-              above to see my works!
+              Outside the classroom, you'll often find me chasing movement and momentum: skiing first chair on a bluebird day, exploring trees and off-piste terrain, skateboarding, or spending time outdoors to reset my thinking. Or you can will find me quietly sipping latte or tea, watching sunrise/sunset from the windows. I care deeply about growth, both technical and personal, and I'm motivated by building things that are not only clever, but meaningful. Long term, I want to contribute to technology that is rigorous, humane, and genuinely useful.
             </p>
           </MotionDiv>
         </article>
