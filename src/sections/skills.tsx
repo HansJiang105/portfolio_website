@@ -12,13 +12,31 @@ import vscodeIcon from "@/assets/icons/vscode.png";
 import arcIcon from "@/assets/icons/arc.png";
 import warpIcon from "@/assets/icons/warp.webp";
 import githubActionsIcon from "@/assets/icons/github-actions.png";
+import csharpIcon from "@/assets/icons/CSharpIcon.svg";
+import djangoIcon from "@/assets/icons/Django Icon.svg";
+import fastapiIcon from "@/assets/icons/FastAPI Icon.svg";
+import numpyIcon from "@/assets/icons/NumPy Icon.svg";
+import pandasIcon from "@/assets/icons/Pandas Icon.svg";
+import matplotlibIcon from "@/assets/icons/Matplotlib Icon.svg";
+import scikitLearnIcon from "@/assets/icons/Scikit-learn Icon.svg";
+import tensorflowIcon from "@/assets/icons/TensorFlow Icon.svg";
+import pytorchIcon from "@/assets/icons/PyTorch Icon.svg";
+import huggingFaceIcon from "@/assets/icons/Hugging Face.svg";
+import opencvIcon from "@/assets/icons/OpenCV Icon.svg";
+import pycharmIcon from "@/assets/icons/PyCharm Icon.svg";
+import cometIcon from "@/assets/icons/Comet.webp";
+import cursorIcon from "@/assets/icons/Cursor.png";
+import claudeCodeIcon from "@/assets/icons/Claude Code.png";
+import anacondaIcon from "@/assets/icons/Anaconda Icon.svg";
+import arduinoIcon from "@/assets/icons/Arduino Icon.svg";
+import powershellIcon from "@/assets/icons/Powershell Icon.svg";
+import gitlabIcon from "@/assets/icons/GitLab Icon.svg";
+import unityIcon from "@/assets/icons/Unity Icon.svg";
+import photoshopIcon from "@/assets/icons/Adobe Photoshop Icon.svg";
+import illustratorIcon from "@/assets/icons/Adobe Illustrator Icon.svg";
+import fusion360Icon from "@/assets/icons/Fusion 360.png";
+import unityCertIcon from "@/assets/icons/Unity Certified Developer.png";
 export default function skills() {
-  // TODO: Add missing technology icons to /src/assets/icons/
-  // Missing icons: C#, Django, FastAPI, NumPy, Pandas, Matplotlib, SciPy,
-  // Scikit-learn, TensorFlow, PyTorch, Hugging Face, OpenCV, YOLOv11,
-  // PyCharm, Comet Browser, Cursor, Claude Code, Unity, Photoshop,
-  // Illustrator, Fusion 360
-
   const data = [
     {
       title: "Languages",
@@ -29,7 +47,7 @@ export default function skills() {
         },
         {
           name: "C#",
-          icon: pythonIcon, // TODO: Add C# icon
+          icon: csharpIcon,
         },
       ],
     },
@@ -50,11 +68,11 @@ export default function skills() {
         },
         {
           name: "Django",
-          icon: pythonIcon, // TODO: Add Django icon
+          icon: djangoIcon,
         },
         {
           name: "FastAPI",
-          icon: pythonIcon, // TODO: Add FastAPI icon
+          icon: fastapiIcon,
         },
       ],
     },
@@ -63,43 +81,35 @@ export default function skills() {
       skills: [
         {
           name: "NumPy",
-          icon: pythonIcon, // TODO: Add NumPy icon
+          icon: numpyIcon,
         },
         {
           name: "Pandas",
-          icon: pythonIcon, // TODO: Add Pandas icon
+          icon: pandasIcon,
         },
         {
           name: "Matplotlib",
-          icon: pythonIcon, // TODO: Add Matplotlib icon
-        },
-        {
-          name: "SciPy",
-          icon: pythonIcon, // TODO: Add SciPy icon
+          icon: matplotlibIcon,
         },
         {
           name: "Scikit-learn",
-          icon: pythonIcon, // TODO: Add Scikit-learn icon
+          icon: scikitLearnIcon,
         },
         {
           name: "TensorFlow",
-          icon: pythonIcon, // TODO: Add TensorFlow icon
+          icon: tensorflowIcon,
         },
         {
           name: "PyTorch",
-          icon: pythonIcon, // TODO: Add PyTorch icon
+          icon: pytorchIcon,
         },
         {
           name: "Hugging Face",
-          icon: pythonIcon, // TODO: Add Hugging Face icon
+          icon: huggingFaceIcon,
         },
         {
           name: "OpenCV",
-          icon: pythonIcon, // TODO: Add OpenCV icon
-        },
-        {
-          name: "YOLOv11",
-          icon: pythonIcon, // TODO: Add YOLOv11 icon
+          icon: opencvIcon,
         },
       ],
     },
@@ -114,6 +124,10 @@ export default function skills() {
           name: "GitHub Actions",
           icon: githubActionsIcon,
         },
+        {
+          name: "GitLab",
+          icon: gitlabIcon,
+        },
       ],
     },
     {
@@ -125,35 +139,47 @@ export default function skills() {
         },
         {
           name: "PyCharm",
-          icon: pythonIcon, // TODO: Add PyCharm icon
+          icon: pycharmIcon,
         },
         {
           name: "PNPM",
           icon: pnpmIcon,
         },
         {
-          name: "Arc Browser",
+          name: "Arc",
           icon: arcIcon,
         },
         {
-          name: "Comet Browser",
-          icon: arcIcon, // TODO: Add Comet icon
+          name: "Comet",
+          icon: cometIcon,
         },
         {
-          name: "Warp Terminal",
+          name: "Warp",
           icon: warpIcon,
         },
         {
           name: "Cursor",
-          icon: vscodeIcon, // TODO: Add Cursor icon
+          icon: cursorIcon,
         },
         {
           name: "Claude Code",
-          icon: vscodeIcon, // TODO: Add Claude Code icon
+          icon: claudeCodeIcon,
         },
         {
           name: "macOS",
           icon: macosIcon,
+        },
+        {
+          name: "Anaconda",
+          icon: anacondaIcon,
+        },
+        {
+          name: "Arduino",
+          icon: arduinoIcon,
+        },
+        {
+          name: "PowerShell",
+          icon: powershellIcon,
         },
       ],
     },
@@ -162,19 +188,28 @@ export default function skills() {
       skills: [
         {
           name: "Unity Engine",
-          icon: pythonIcon, // TODO: Add Unity icon
+          icon: unityIcon,
         },
         {
           name: "Photoshop",
-          icon: pythonIcon, // TODO: Add Photoshop icon
+          icon: photoshopIcon,
         },
         {
           name: "Illustrator",
-          icon: pythonIcon, // TODO: Add Illustrator icon
+          icon: illustratorIcon,
         },
         {
           name: "Fusion 360",
-          icon: pythonIcon, // TODO: Add Fusion 360 icon
+          icon: fusion360Icon,
+        },
+      ],
+    },
+    {
+      title: "Certifications",
+      skills: [
+        {
+          name: "Unity Certified Developer",
+          icon: unityCertIcon,
         },
       ],
     },
